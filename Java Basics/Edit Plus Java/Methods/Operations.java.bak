@@ -1,0 +1,47 @@
+class  Operations
+{
+	int a=6,b=8,add,sub,mul,div,mod;
+	public static void main(String[] args) 
+	{
+	
+	
+	Addition();
+	}
+
+	public static void Addition() {
+	
+	add=a+b;
+	System.out.println("Sum of Given Numbers is : " + add);
+	Subtraction();
+	}
+
+
+	public static void Subtraction() {
+	
+	sub=a-b;
+	System.out.println("Subtraction of Given Numbers is : " + sub);
+	Multiplication();
+	}
+	
+	public static void Multiplication() {
+	
+	mul=a*b;
+	System.out.println("Multiplication of Given Numbers is : " + mul);
+	Division();
+	}
+
+	public static void Division() {
+	
+	div=a/b;
+	System.out.println("Division of Given Numbers is : " + div);
+	Modulus();
+	}
+
+	public static void Modulus() {
+	
+	mod=a%b;
+	System.out.println("Modulus of Given Numbers is : " + mod);
+	}
+
+
+}
